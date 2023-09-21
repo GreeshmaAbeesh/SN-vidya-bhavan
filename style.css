@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding:0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-md-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-md-6{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.text p{
+    font-size: 10px;
+    color: #292929;
+    margin-top: 9px;
+    font-weight: 500;
+    text-align: center;
+}
+.dtl1{
+    float: left;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.dtl2{
+    float: left;
+    margin-right: 20px;
+}
+.dtl3{
+    float: left;
+}
+
+.dtl4{
+    float: left;
+}
+.dtl5{
+    float: left;
+
+}
+.logo{
+    padding-left: 12px;
+    width: 389px;
+}
+.navigation{
+    background-color: darkgreen;
+    width:100%;
+}
+
+
+.no-horizontal-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+.details1 h3{
+ color:#353738;
+ font-size: 2rem;
+    
+    padding-top: 100px;
+    padding-left: 51px;
+    line-height: 1.2;
+    font-weight: bold;
+}
+.button{
+    display: inline-block;
+    text-decoration: solid;
+    color: #fff;
+    background-color:#597204;
+    
+    text-align: center;
+    vertical-align: middle;
+    font-size: 22px;
+   
+    margin-top: 35px;
+    width: 326px;
+    margin-left: 20px;
+    cursor: pointer;
+   
+    font-weight: bold;
+    padding-left: 10px;
+   
+
+}
+.button:hover{
+    border: 4px solid #e6be4ea8;
+    background-color: #e6be4ea8;
+    transition: 1s;
+}
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.button1{
+        display: inline-block;
+        text-decoration: solid;
+        color: #fff;
+        background-color: #28a745;
+        width: 139px;
+        text-align: center;
+        vertical-align: middle;
+        height: 28px;
+       
+        
+        cursor: pointer;
+       
+        font-weight: bold;
+        padding-left:-5px;
+       
+    
+    }
+    .button1:hover{
+        border: 4px solid orange;
+        background-color:orange;
+        transition: 1s;
+    }
+
+    .activities h3{
+        text-align: center;
+    padding-top: 115px;
+    color: #597204;
+    font-size: 30px;
+    font-weight: bold;
+    }
+.achieve h3{
+    text-align: center;
+    padding-top: 80px;
+    color: #597204;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.facilities h3{
+    padding-top: 68px;
+    text-align: center;
+    padding-bottom: 11px;
+    font-weight: bolder;
+}
+.f1{
+    text-align: center;
+}
+.footer{
+    width:100%;
+    height: 320px;
+    background-color: #333f46;
+}
